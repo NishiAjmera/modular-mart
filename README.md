@@ -13,5 +13,5 @@ Run `nx graph` to see a diagram of the dependencies of the projects.
 Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and make CI faster.
 
 ## Further help
-
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+To serve the applicaiton locally run the command mentioned below:
+nx run-many --target=serve --projects=checkout,product-list,products-api
